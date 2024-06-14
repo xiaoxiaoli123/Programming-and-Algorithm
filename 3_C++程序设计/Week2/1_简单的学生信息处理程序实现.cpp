@@ -59,7 +59,7 @@ void Student::PrintInfo()
 }
 
 int main()
-{   
+{
     Student st;
 
     st.Initialize();
@@ -74,7 +74,7 @@ int main()
 * 最后终于跑通了，但是coursera报错complier error，实在不知是什么原因。因为在电脑上的Visual Studio 2022是跑通的。
 * 可能是北大在coursera上的在线评分系统太过老旧了。
 * 最后参考了GitHub上大佬的代码，发现竟然如此简单，于是自己又重写了一遍。
-* 
+*
 * 学到的：
 * getline按行读入字符串对我来说是新的，并且发现字符串只能这样读入，试过将全部信息都由cin读入，没有成功。
 * 分析问题时还是要按照字面意思来，不要想得过于复杂了。
